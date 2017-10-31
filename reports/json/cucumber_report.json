@@ -1,0 +1,116 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To type simple and show binding",
+    "line": 1,
+    "id": "to-type-simple-and-show-binding",
+    "tags": [],
+    "uri": "features\\simpleBinding.feature",
+    "elements": [
+      {
+        "id": "to-type-simple-and-show-binding;simple-binding",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "simple binding",
+        "tags": [
+          {
+            "name": "@SimpleBindingScenario",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on simple binding page",
+            "match": {
+              "location": "e2e\\steps\\home.e2e-spec.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I type \"simple\"",
+            "match": {
+              "location": "e2e\\steps\\action.e2e-spec.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 99
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I click on show button",
+            "match": {
+              "location": "e2e\\steps\\action.e2e-spec.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see the message simple on label",
+            "match": {
+              "location": "e2e\\steps\\action.e2e-spec.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I clear the input field",
+            "match": {
+              "location": "e2e\\steps\\action.e2e-spec.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see empty input",
+            "match": {
+              "location": "e2e\\steps\\action.e2e-spec.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "e2e\\support\\hooks.e2e.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
