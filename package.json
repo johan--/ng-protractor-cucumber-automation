@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve &",
     "build": "ng build",
-    "test": "ng test",
+    "test": "ng test --single-run --browsers ChromeHeadless",
     "lint": "ng lint",
     "e2e": "protractor dist/out-tsc/protractor.conf.js",
     "build-e2e": "tsc",
